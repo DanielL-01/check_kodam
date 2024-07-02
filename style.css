@@ -1,8 +1,18 @@
+
+
 body {
     background-image: url("./background.svg");
+    background-repeat: no-repeat;
     background-size: cover;
-
+    font-family: "Salsa", cursive;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
 }
+
+
 
 .box{
     height: 500px;
@@ -11,7 +21,7 @@ body {
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
     margin: auto;
-    margin-top: 200px;
+    margin-top: 10%;
     border-radius: 50px;
 
     justify-content: center;
@@ -26,6 +36,7 @@ body {
 .text h1{
     color: red;
     font-weight: bold;
+
 }
 
 .text h2 {
@@ -58,23 +69,33 @@ body {
 ::placeholder{
     color: white;
     opacity: 1;    
+    font-family: "Salsa", cursive;
 }
 
 .button_1{
     height: 50px;
     width: 70px;
     border-radius: 50px;
-    background-color: red;
+    background-color: rgb(150, 4, 4);
     border: red;
     color: white;
     font-size: 15px;
+    font-family: "Salsa", cursive;
+
 }
 
-.box h3{
+.button_1:hover{
+    background-color: rgb(210, 0, 0);
+    transition-duration: 500ms;
+}
+
+
+
+h3{
     color: white;
 }
 
-.box a{
+a{
     color: rgb(0, 119, 255);
 }
 
@@ -91,10 +112,13 @@ body {
     font-size: 30px;
     color: white;
     margin-bottom: 10px;
+
 }
 
 #kodam-hasil{
     color: red;
     font-size: 50px;
     margin-top: 10px;
+
 }
+
